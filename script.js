@@ -9,9 +9,10 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ email or moblie number, password })
+    body: JSON.stringify({ email-or- moblie- number, password })
   });
 
   alert("Login unsuccessful.");
 
 });
+
